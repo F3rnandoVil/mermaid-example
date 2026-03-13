@@ -6,7 +6,7 @@ This repository contains the database schema and entity-relationship design for 
 
 The following diagram illustrates the logical structure of the database, including primary keys, foreign keys, and the cardinality of relationships between entities.
 
-![E-commerce Data Model](ER-Diagram.mmd)
+![E-commerce Data Model](E-commerce%20Data%20Model-2026-03-13-041534.svg)
 
 ---
 
