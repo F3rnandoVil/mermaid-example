@@ -1,0 +1,27 @@
+erDiagram
+    CATEGORIAS ||--o{ PRODUCTOS : "contiene"
+    CLIENTES ||--o{ PEDIDOS : "realiza"
+
+    CATEGORIAS {
+        int id_categoria PK
+        string nombre
+    }
+
+    PRODUCTOS {
+        int id_producto PK
+        string nombre
+        decimal precio
+        int id_categoria FK
+    }
+
+    CLIENTES {
+        int id_cliente PK
+        string nombre
+        string email
+    }
+
+    PEDIDOS {
+        int id_pedido PK
+        int id_cliente FK
+        date fecha
+    }
